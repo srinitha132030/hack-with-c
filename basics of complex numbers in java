@@ -1,0 +1,23 @@
+class ComplexNumber{
+    int real;
+    int imaginary;
+    
+     ComplexNumber(int r , int i){
+         real = r;
+         imaginary =i;
+     }
+    
+    
+    
+    void print(){
+        System.out.println(real + " + " + imaginary+"i");
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+       ComplexNumber x = new ComplexNumber(2 , 3);
+       
+       x.print();
+    }
+}
